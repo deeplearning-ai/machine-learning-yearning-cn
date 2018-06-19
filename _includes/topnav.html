@@ -15,11 +15,13 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">文档</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">博客</a></li>
+                <li><a href="https://www.deeplearning.ai/">deeplearning.ai</a></li>
+                <li><a href="https://www.landing.ai/">landing.ai</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
                     <div class="form-group has-feedback">
-                        <input id="search-box" type="text" class="form-control" placeholder="搜索...">
+                        <input id="search-box" type="text" class="form-control" placeholder="假装支持搜索...">
                         <i class="fa fa-search form-control-feedback"></i>
                     </div>
                 </form>
