@@ -1,5 +1,5 @@
 ---
-title: 欢迎阅读机器学习训练秘籍
+title: 欢迎阅读《机器学习要领》
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---

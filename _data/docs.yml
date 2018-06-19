@@ -19,27 +19,71 @@
 
 - title: Basic Error Analysis
   docs:
+  - ch13
+  - ch14
+  - ch15
+  - ch16
+  - ch17
+  - ch18
+  - ch19
 
 - title: Bias and Variance
   docs:
+  - ch20
+  - ch21
+  - ch22
+  - ch23
+  - ch24
+  - ch25
+  - ch26
+  - ch27
 
 - title: Learning curves
   docs:
+  - ch28
+  - ch29
+  - ch30
+  - ch31
+  - ch32
 
 - title: Comparing to human-level performance
   docs:
+  - ch33
+  - ch34
+  - ch35
 
 - title: Training and testing on different distributions
   docs:
+  - ch36
+  - ch37
+  - ch38
+  - ch39
+  - ch40
+  - ch41
+  - ch42
+  - ch43
 
 - title: Debugging inference algorithms
   docs:
+  - ch44
+  - ch45
+  - ch46
 
 - title: End-to-end deep learning
   docs:
+  - ch47
+  - ch48
+  - ch49
+  - ch50
+  - ch51
     
 - title: Error analysis by parts
   docs:
+  - ch52
+  - ch53
 
 - title: Conclusion
   docs:
+  - ch54
+  - ch55
+  - ch56
