@@ -1,11 +1,45 @@
 - title: Getting Started
   docs:
   - home
-  - themes
-  - customization
+  - ch01
+  - ch02
+  - ch03
+  - ch04
 
-- title: Examples
+- title: Setting up development and test sets
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - ch05
+  - ch06
+  - ch07
+  - ch08
+  - ch09
+  - ch10
+  - ch11
+  - ch12
+
+- title: Basic Error Analysis
+  docs:
+
+- title: Bias and Variance
+  docs:
+
+- title: Learning curves
+  docs:
+
+- title: Comparing to human-level performance
+  docs:
+
+- title: Training and testing on different distributions
+  docs:
+
+- title: Debugging inference algorithms
+  docs:
+
+- title: End-to-end deep learning
+  docs:
+    
+- title: Error analysis by parts
+  docs:
+
+- title: Conclusion
+  docs:

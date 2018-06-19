@@ -17,7 +17,7 @@ next, lets build a link to it.
       {% if forloop.first %}
         <li class="previous disabled">
           <a>
-            <span aria-hidden="true">&larr;</span> Previous
+            <span aria-hidden="true">&larr;</span> 上一节
           </a>
         </li>
       {% else %}
@@ -25,7 +25,7 @@ next, lets build a link to it.
         {% assign previous_page = docs[previous] | prepend:"/docs/" | append:"/" %}
         <li class="previous">
           <a href="{{ previous_page | prepend: site.baseurl }}">
-            <span aria-hidden="true">&larr;</span> Previous
+            <span aria-hidden="true">&larr;</span> 上一节
           </a>
         </li>
       {% endif %}
@@ -33,7 +33,7 @@ next, lets build a link to it.
       {% if forloop.last %}
         <li class="next disabled">
           <a>
-            Next <span aria-hidden="true">&rarr;</span>
+            下一节 <span aria-hidden="true">&rarr;</span>
           </a>
         </li>
       {% else %}
@@ -41,7 +41,7 @@ next, lets build a link to it.
         {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}
         <li class="next">
           <a href="{{ next_page | prepend: site.baseurl }}">
-            Next <span aria-hidden="true">&rarr;</span>
+            下一节 <span aria-hidden="true">&rarr;</span>
           </a>
         </li>
       {% endif %}
