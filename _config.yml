@@ -7,6 +7,7 @@ description: >
 
 baseurl: "/machine-learning-yearning-cn" # the subpath of your site, e.g. /blog/
 url: https://accepteddoge.github.io/machine-learning-yearning-cn/ # the base hostname & protocol for your site
+imgurl: https://accepteddoge.github.io/machine-learning-yearning-cn/img/
 git_address: https://github.com/accepteddoge/machine-learning-yearning-cn/
 git_edit_address: https://github.com/accepteddoge/machine-learning-yearning-cn/blob/master
 
