@@ -1,0 +1,59 @@
+//http://stackoverflow.com/questions/21749179/typeahead-js-v0-10-1-and-bootstrap-3/33177315#33177315
+@mixin typeahead-active() {
+    // mimics  @extend .dropdown-menu > .active > a;
+    color: $dropdown-link-active-color;
+    text-decoration: none;
+    outline: 0;
+    background-color: $dropdown-link-active-bg;
+}
+
+//https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md#class-names
+span.twitter-typeahead {
+    // this is the suggested matches dropdown
+    .tt-menu {
+        @extend .dropdown-menu;
+    }
+
+    .tt-hint {
+        color: #999;
+    }
+    // Added to suggestion elements.
+    .tt-suggestion {
+        // mimic .dropdown-menu > li > a
+        padding: 3px 20px;
+        line-height: $line-height-base;
+        // Added to suggestion element when menu cursor moves to said suggestion.
+        &.tt-cursor {
+            @include typeahead-active;
+        }
+        // Hover/focus on suggestion
+        &:focus,
+        &:hover {
+            @include typeahead-active;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .input-group & {
+        display: block !important;
+
+        .tt-dropdown-menu {
+            top: 32px !important;
+        }
+    }
+
+    .input-group.input-group-lg & {
+        .tt-dropdown-menu {
+            top: 44px !important;
+        }
+    }
+
+    .input-group.input-group-sm & {
+        .tt-dropdown-menu {
+            top: 28px !important;
+        }
+    }
+}

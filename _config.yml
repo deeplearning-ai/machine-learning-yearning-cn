@@ -1,0 +1,56 @@
+# Site settings
+title: 机器学习训练秘籍
+email: acdoge.cao@gmail.com
+description: >
+  Machine Learning Yearning 中文译稿，
+  Andrew Ng 著，Accepted Doge 译。
+
+baseurl: "/machine-learning-yearning-cn" # the subpath of your site, e.g. /blog/
+url: https://accepteddoge.github.io/machine-learning-yearning-cn # the base hostname & protocol for your site
+git_address: https://github.com/accepteddoge/machine-learning-yearning-cn
+git_edit_address: https://github.com/accepteddoge/machine-learning-yearning-cn/blob/master
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: paper
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Asia/Shanghai
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:title/
+    output: true
