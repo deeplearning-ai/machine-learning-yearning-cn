@@ -15,6 +15,11 @@ git_edit_address: https://github.com/accepteddoge/machine-learning-yearning-cn/b
 # comment out this to use default Bootstrap
 bootwatch: paper
 
+# mathjax
+mathjax: true
+mathjax_autoNumber: true
+
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
