@@ -1,5 +1,5 @@
 # Site settings
-title: 机器学习要领
+title: 机器学习训练秘籍
 email: acdoge.cao@gmail.com
 description: >
   Machine Learning Yearning 中文译稿，
@@ -18,7 +18,6 @@ bootwatch: paper
 # mathjax
 mathjax: true
 mathjax_autoNumber: true
-
 
 # Build settings
 markdown: kramdown
