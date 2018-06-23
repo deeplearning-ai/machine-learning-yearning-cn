@@ -1,24 +1,27 @@
 <script>
-    var baseurl = '{{ site.baseurl }}'
+  var baseurl = '{{ site.baseurl }}'
 </script>
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="{{"/js/bootstrap.min.js " | prepend: site.baseurl }} "></script>
-<script src="{{"/js/typeahead.bundle.min.js " | prepend: site.baseurl }} "></script>
-<script src="{{"/js/main.js " | prepend: site.baseurl }} "></script>
-<!-- mathjax config similar to math.stackexchange -->
+<script src="{{" /js/bootstrap.min.js " | prepend: site.baseurl }} "></script>
+<script src="{{" /js/typeahead.bundle.min.js " | prepend: site.baseurl }} "></script>
+<script src="{{" /js/main.js " | prepend: site.baseurl }} "></script>
 <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
-  tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$']],
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+MathJax.Hub.Config({ 
+    showProcessingMessages: false,
+    messageStyle: "none",
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: { 
+      inlineMath: [ ["$", "$"] ],
+      displayMath: [ ["$$","$$"] ], 
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'], 
+      ignoreClass:"comment-content" 
+    },
+    "HTML-CSS": { 
+      availableFonts: ["STIX","TeX"],
+      showMathMenu: false 
+    }
 });
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 </script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
-
-
+<script src="https://cdn.bootcss.com/mathjax/2.7.4/latest.js"></script>
