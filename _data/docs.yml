@@ -77,14 +77,15 @@
   - ch50
   - ch51
   - ch52
-    
+
 - title: Error analysis by parts
   docs:
   - ch53
   - ch54
-
-- title: Conclusion
-  docs:
   - ch55
   - ch56
   - ch57
+
+- title: Conclusion
+  docs:
+  - ch58
