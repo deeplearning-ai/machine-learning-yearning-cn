@@ -1,12 +1,12 @@
-# MLY 中文版官方授权翻译仓库 
+# MLY 中文版官方授权翻译仓库
 
 [访问此处](https://accepteddoge.github.io/machine-learning-yearning-cn/) 开始在线阅读，希望这本书对你们有所帮助！
 
 本项目一切权利归属于 deeplearning.ai ，[英文官网](https://www.deeplearning.ai/) 已经更新。
 
-[PDF 版本](./MLY-zh-cn.pdf) 仅供内容预览，非最终版本，译者水平有限，如有翻译不当之处，
+[PDF 版本](./MLY-zh-cn.pdf) 仅供内容预览，非最终版本（目前与英文样稿保持排版格式一致，中文字体显示不够优雅，后面可能会采用 LaTeX 排版优化显示效果），如出现内容勘误，默认每周末统一更新一次 PDF 内容，其它情况下不会对文件进行更新。
 
-恳请读者指正，联系邮箱: [acdoge.cao@gmail.com](mailto:acdoge.cao@gmail.com)
+译者水平有限，如有翻译不当之处，恳请读者指正，联系邮箱: [acdoge.cao@gmail.com](mailto:acdoge.cao@gmail.com)
 
 ## 目前需要解决的问题
 
