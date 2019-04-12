@@ -4,3 +4,4 @@ _site
 *.gem
 .bundle
 vendor/bundle
+.idea/

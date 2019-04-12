@@ -6,10 +6,10 @@ description: >
   Andrew Ng 著，Accepted Doge 译。
 
 baseurl: "/machine-learning-yearning-cn" # the subpath of your site, e.g. /blog/
-url: https://accepteddoge.github.io/machine-learning-yearning-cn/ # the base hostname & protocol for your site
-imgurl: https://accepteddoge.github.io/machine-learning-yearning-cn/img/
-git_address: https://github.com/accepteddoge/machine-learning-yearning-cn/
-git_edit_address: https://github.com/accepteddoge/machine-learning-yearning-cn/blob/master
+url: https://deeplearning-ai.github.io/machine-learning-yearning-cn/ # the base hostname & protocol for your site
+imgurl: https://deeplearning-ai.github.io/machine-learning-yearning-cn/img/
+git_address: https://github.com/deeplearning-ai/machine-learning-yearning-cn/
+git_edit_address: https://github.com/deeplearning-ai/machine-learning-yearning-cn/blob/master
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap

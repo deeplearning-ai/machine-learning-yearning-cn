@@ -1,6 +1,6 @@
 # MLY 中文版官方授权翻译仓库
 
-[访问此处](https://accepteddoge.github.io/machine-learning-yearning-cn/) 开始在线阅读，希望这本书对你们有所帮助！
+[访问此处](https://deeplearning-ai.github.io/machine-learning-yearning-cn/) 开始在线阅读，希望这本书对你们有所帮助！
 
 本项目一切权利归属于 deeplearning.ai ，[英文官网](https://www.deeplearning.ai/) 已经更新。
 
