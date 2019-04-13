@@ -43,22 +43,22 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:   Avenir, "Segoe UI", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          13px !default;
+$font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            56px !default;
-$font-size-h2:            45px !default;
-$font-size-h3:            34px !default;
-$font-size-h4:            24px !default;
-$font-size-h5:            20px !default;
-$font-size-h6:            14px !default;
+$font-size-h1:            25px !default;
+$font-size-h2:            23px !default;
+$font-size-h3:            21px !default;
+$font-size-h4:            17px !default;
+$font-size-h5:            16px !default;
+$font-size-h6:            15px !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.846 !default; // 20/14
@@ -857,7 +857,7 @@ $headings-small-color:        $gray-light !default;
 //** Blockquote small color
 $blockquote-small-color:      $gray-light !default;
 //** Blockquote font size
-$blockquote-font-size:        ($font-size-base * 1.25) !default;
+$blockquote-font-size:        ($font-size-base * 1.2) !default;
 //** Blockquote border color
 $blockquote-border-color:     $gray-lighter !default;
 //** Page header border color
